@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site no seu navegador ou simplesmente diminua ou aumente o tamanho</p>
+
+
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/imgp.png" type="image/png">
+        <source media="(max-width: 800px)" srcset="imagens/imgm.png" type="image/png">
+        <img src="Imagens/imgg.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios em html5</p>
+    <audio preload="metadata" controls autoplay loop> 
+       <source src="midias/guanacast-33.mp3" type="audio/mpeg">
+       <source src="midias/guanacast-33.ogg" type="audio/ogg">
+       <source src="midias/guanacast-33.wav" type="audio/wav">
+       <p>infelizmente seu navegador nao consegue reproduzir audios> <a href="midias/guanacast-33.mp3"> clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+</body>
+</html>
