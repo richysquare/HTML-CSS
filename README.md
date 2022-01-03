@@ -3,4 +3,4 @@
 estou
 
 
-<a href="https://github.com/richysquare/HTML-CSS/blob/main/EXERCICIOS/ex001/index.html">
+<a href="https://github.com/richysquare/HTML-CSS/blob/main/EXERCICIOS/ex001/index.html"> Executar o exercicio</a>
